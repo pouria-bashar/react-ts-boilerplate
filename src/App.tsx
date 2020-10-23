@@ -1,5 +1,6 @@
-import * as React from 'react';
-import style from './main.css';
+import * as React from 'react';// @ts-ignore
+const style = require('./main.css');
+
 
 export interface HelloWorldProps {
   userName: string;
